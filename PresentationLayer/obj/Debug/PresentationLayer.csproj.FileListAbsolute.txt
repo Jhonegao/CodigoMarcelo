@@ -1,0 +1,12 @@
+C:\Users\entra21\source\repos\ParkingManagementSystem\PresentationLayer\obj\Debug\PresentationLayer.csprojAssemblyReference.cache
+C:\Users\entra21\source\repos\ParkingManagementSystem\PresentationLayer\obj\Debug\PresentationLayer.Form1.resources
+C:\Users\entra21\source\repos\ParkingManagementSystem\PresentationLayer\obj\Debug\PresentationLayer.Properties.Resources.resources
+C:\Users\entra21\source\repos\ParkingManagementSystem\PresentationLayer\obj\Debug\PresentationLayer.csproj.GenerateResource.cache
+C:\Users\entra21\source\repos\ParkingManagementSystem\PresentationLayer\bin\Debug\PresentationLayer.exe.config
+C:\Users\entra21\source\repos\ParkingManagementSystem\PresentationLayer\bin\Debug\PresentationLayer.exe
+C:\Users\entra21\source\repos\ParkingManagementSystem\PresentationLayer\bin\Debug\PresentationLayer.pdb
+C:\Users\entra21\source\repos\ParkingManagementSystem\PresentationLayer\obj\Debug\PresentationLayer.exe
+C:\Users\entra21\source\repos\ParkingManagementSystem\PresentationLayer\obj\Debug\PresentationLayer.pdb
+C:\Users\entra21\source\repos\ParkingManagementSystem\PresentationLayer\bin\Debug\Entities.dll
+C:\Users\entra21\source\repos\ParkingManagementSystem\PresentationLayer\bin\Debug\Entities.pdb
+C:\Users\entra21\source\repos\ParkingManagementSystem\PresentationLayer\obj\Debug\PresentationLayer.csproj.CopyComplete

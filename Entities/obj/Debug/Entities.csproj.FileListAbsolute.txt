@@ -1,0 +1,5 @@
+C:\Users\entra21\source\repos\ParkingManagementSystem\Entities\bin\Debug\Entities.dll
+C:\Users\entra21\source\repos\ParkingManagementSystem\Entities\bin\Debug\Entities.pdb
+C:\Users\entra21\source\repos\ParkingManagementSystem\Entities\obj\Debug\Entities.csprojAssemblyReference.cache
+C:\Users\entra21\source\repos\ParkingManagementSystem\Entities\obj\Debug\Entities.dll
+C:\Users\entra21\source\repos\ParkingManagementSystem\Entities\obj\Debug\Entities.pdb
