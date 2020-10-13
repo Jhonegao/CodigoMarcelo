@@ -226,6 +226,52 @@ namespace DataAccessLayer
             }
 
         }
+
+        public Response IsCpfUnique(string cpf)
+        {
+            QueryResponse<Cliente> response = new QueryResponse<Cliente>();
+
+            SqlConnection connection = new SqlConnection();
+            connection.ConnectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\entra21\Documents\SistemaEstacionamento.mdf;Integrated Security=True;Connect Timeout=10";
+
+            SqlCommand command = new SqlCommand();
+            command.CommandText = "SELECT ID FROM CLIENTES WHERE CPF = @CPF";
+            command.Parameters.AddWithValue("@CPF", cpf);
+            command.Connection = connection;
+
+            try
+            {
+                connection.Open();
+
+                SqlDataReader reader = command.ExecuteReader();
+
+                //Nem é um while! É só um if, e, se ele for true, é pq achou o cpf!
+                if (reader.Read())
+                {
+                    response.Success = false;
+                    response.Message = "CPF já cadastrado.";
+                }
+                else
+                {
+                    response.Success = true;
+                    response.Message = "CPF único.";
+                }
+                return response;
+            }
+            catch (Exception ex)
+            {
+                response.Success = false;
+                response.Message = "Erro no banco de dados contate o adm.";
+                response.ExceptionError = ex.Message;
+                response.StackTrace = ex.StackTrace;
+                return response;
+            }
+            finally
+            {
+                connection.Close();
+            }
+        }
+
     }
 }
 

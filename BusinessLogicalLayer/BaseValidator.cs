@@ -13,12 +13,17 @@ namespace BusinessLogicalLayer
 
         public void AddError(string error)
         {
-            errors.Add(error);
+            if (error != "")
+            {
+                errors.Add(error);
+            }
         }
 
         public virtual Response Validate(T item)
         {
-            return CheckError();
+            Response response = CheckError();
+            this.errors.Clear();
+            return response;
         }
 
         private Response CheckError()

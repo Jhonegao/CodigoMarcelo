@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="BaseValidator.cs" />
     <Compile Include="ClienteBLL.cs" />
+    <Compile Include="Extensions\StringExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
